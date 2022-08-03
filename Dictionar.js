@@ -1,9 +1,9 @@
 const dictionary = Array();
 
 function dictionaryList () {
-	var word = document.getElementById("toList").value; //.value gets input values
-    dictionary.push(word);
-    document.getElementById("toList").value = "";
+	var word = document.getElementById("toList").value; 
+	dictionary.push(word);
+	document.getElementById("toList").value = "";
 }
 
 function searchTheWord () {
